@@ -1,10 +1,10 @@
 /**
  *  Programmer: Sabas Sanchez
+ *  File: Superhero.java
  *  Date: 3/4/2020
  *  Project 3 - Superheroes
  *
  *  Represents a superheroes with name, power and image name to be used in a quiz app.
- *
  */
 
 package edu.miracosta.cs134.superheroes.model;
@@ -25,12 +25,12 @@ public class Superhero {
      * @param superpower The superpower the <code>Superhero</code> possesses.
      * @param oneThing The one thing you should know about this <code>Superhero</code>
      */
-    public Superhero(String name, String superpower, String oneThing)
+    public Superhero(String name, String superpower, String oneThing, String fileName)
     {
         mName = name;
         mSuperpower = superpower;
         mOneThing = oneThing;
-        mFileName = DIRECTORY + "/" + name + ".png";
+        mFileName = fileName;
     }
 
     /***
