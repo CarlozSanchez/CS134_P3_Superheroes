@@ -23,7 +23,7 @@ import java.util.List;
 
 public class JSONLoader {
 
-    public static final String  JSON_FILE_NAME ="superheroes/cs134superheroes.json";
+    public static final String  JSON_FILE_NAME = "cs134superheroes.json";
     private static final String OBJECT = "CS134Superheroes";
     private static final String NAME = "Name";
     private static final String POWER = "Superpower";
