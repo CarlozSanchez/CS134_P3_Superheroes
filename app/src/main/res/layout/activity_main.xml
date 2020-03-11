@@ -8,11 +8,12 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/questionNumberTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom = "8dp"/>
+        android:layout_marginBottom="8dp"
+        android:text="Hello World!" />
 
     <ImageView
         android:id="@+id/superheroImageView"
@@ -32,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/gues_superhero_text_view"
+        android:text="@string/guess_superhero_text_view"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <LinearLayout
@@ -46,16 +47,18 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:lines = "2"
-            android:text="Button1"/>
+            android:lines="2"
+            android:onClick="makeGuess"
+            android:text="Button1" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:lines = "2"
-            android:text="Button2"/>
+            android:lines="2"
+            android:onClick="makeGuess"
+            android:text="Button2" />
 
     </LinearLayout>
 
@@ -70,16 +73,18 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:lines = "2"
-            android:text="Button3"/>
+            android:lines="2"
+            android:onClick="makeGuess"
+            android:text="Button3" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:lines = "2"
-            android:text="4"/>
+            android:lines="2"
+            android:onClick="makeGuess"
+            android:text="4" />
 
     </LinearLayout>
 

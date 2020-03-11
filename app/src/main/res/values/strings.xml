@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Superheroes</string>
     <string name="superhero_image_view_description">Image of the current superhero in the quiz</string>
-    <string name="gues_superhero_text_view">Guess the superhero</string>
+    <string name="guess_superhero_text_view">Guess the superhero</string>
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="results">%1$d guesses, %2$.01f%% correct</string>
 </resources>
